@@ -5,14 +5,14 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby18
+	<string>#!/usr/bin/env ruby
 
 require "yaml"
 require "pp"
 
 puts "#!/usr/bin/env ruby\n\n"
 print "documents = "
-pp(YAML.load_stream(STDIN).documents)</string>
+pp(YAML.load_stream(STDIN))</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
