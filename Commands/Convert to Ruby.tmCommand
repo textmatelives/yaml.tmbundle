@@ -12,7 +12,7 @@ require "pp"
 
 puts "#!/usr/bin/env ruby\n\n"
 print "documents = "
-pp(YAML.load_stream(STDIN).documents)</string>
+pp(YAML.load_stream(STDIN))</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
